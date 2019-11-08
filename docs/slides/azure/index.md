@@ -4,7 +4,7 @@ background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/
 count: false
 
 
-# Hashistack Azure Field Workshop Slides
+# Hashistack Azure Workshop Slides
 ## Slides for Hashistack Azure field workshops
 
 ???

@@ -4,7 +4,7 @@ background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/
 count: false
 
 
-# Hashistack Micro-Services Workshop for AWS
+# Hashistack Micro-Services Workshop
 ## Slides for micro-services workshop that uses the Hashistack on AWS.
 
 ???

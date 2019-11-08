@@ -4,7 +4,7 @@ background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/
 count: false
 
 
-# Hashistack Service Segmentation Workshop for AWS
+# Service Segmentation Workshop
 ## Slides for service segmentation workshop that uses the Hashistack on AWS.
 
 ???

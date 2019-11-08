@@ -4,7 +4,7 @@ background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/
 count: false
 
 
-# Hashistack GCP Field Workshop Slides
+# Hashistack GCP Workshop Slides
 ## Slides for Hashistack GCP field workshops
 
 ???
