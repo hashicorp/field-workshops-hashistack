@@ -434,7 +434,7 @@ Breaches are commonly carried out via attackers who have gained escalated creden
 
 ---
 # Example with encryption enabled
-.center[![:scale 50%](images/Transit_enabled.png)]
+.center[![:scale 90%](images/Transit_enabled.png)]
 
 ---
 class: col-2
