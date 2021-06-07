@@ -433,7 +433,7 @@ Breaches are commonly carried out via attackers who have gained escalated creden
 .center[![:scale 90%](images/slide53.png)]
 
 ---
-# Example with encryption enabled
+# Example with Encryption Enabled
 .center[![:scale 90%](images/Transit_enabled.png)]
 
 ---
@@ -449,6 +449,11 @@ class: col-2
 ---
 # Tokenization (Diagram)
 .center[![:scale 50%](images/tokenization.png)]
+
+___ 
+# Transform vs. Transit vs. Tokenization
+.center[![:scale 100%](images/vs.png)]
+
 
 ---
 class: title, shelf, no-footer, fullbleed
