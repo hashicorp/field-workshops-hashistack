@@ -444,7 +444,7 @@ class: col-2
 * Integrated Metadata: Supports metadata for identifying data type and purpose
 * Extreme Scale and Performance: Support for performantly managing billions of tokens across clouds, on-prem
 ]
-.center[![:scale 50%](images/slide54.png)]
+.center[![:scale 50%](images/tokenization_high_level.png)]
 
 ---
 # Tokenization (Diagram)
@@ -452,7 +452,7 @@ class: col-2
 
 ---
 # Transform vs. Transit vs. Tokenization
-.center[![:scale 100%](images/vs.png)]
+.center[![:scale 90%](images/vs.png)]
 
 ---
 class: title, shelf, no-footer, fullbleed
