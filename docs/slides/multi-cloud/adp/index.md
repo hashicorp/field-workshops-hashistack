@@ -442,7 +442,6 @@ class: col-2
 .smaller[
 * Non-Reversible Identification: Protect data pursuant to requirements for data irreversibility (PCI-DSS, GDPR, etc.) with strong forward secrecy
 * Integrated Metadata: Supports metadata for identifying data type and purpose
-* Extreme Scale and Performance: Support for performantly managing billions of tokens across clouds, on-prem
 ]
 .center[![:scale 50%](images/tokenization_high_level.png)]
 
