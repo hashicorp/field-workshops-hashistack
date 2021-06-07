@@ -450,10 +450,9 @@ class: col-2
 # Tokenization (Diagram)
 .center[![:scale 50%](images/tokenization.png)]
 
-___ 
+---
 # Transform vs. Transit vs. Tokenization
 .center[![:scale 100%](images/vs.png)]
-
 
 ---
 class: title, shelf, no-footer, fullbleed
