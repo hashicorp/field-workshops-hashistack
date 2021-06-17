@@ -447,7 +447,7 @@ class: col-2
 
 ---
 # Tokenization (Diagram)
-.center[![:scale 50%](images/tokenization.png)]
+.center[![:scale 90%](images/Tokenization_workflow.png)]
 
 ---
 # Transform vs. Transit vs. Tokenization
