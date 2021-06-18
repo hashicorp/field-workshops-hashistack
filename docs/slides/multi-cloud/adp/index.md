@@ -65,10 +65,10 @@ name: environment
 * This workshop uses Instruqt for hand-on labs.
 * Instruqt labs are run in “tracks” that are divided into “challenges”
 * This workshop uses the following tracks
-  1. Vault Basics Review (CLI, K/V, etc.)
+  1. Vault Basics Review
   1. Vault Dynamic Database Credentials
   1. Vault Transform and Transit Secrets Engines (Appl Level Encryption)
-  1. (Optional) Vault Transform (With Tokenization) Secret Engine (Appl Level Encrption)
+  1. (Optional) Vault Transform-Tokenization Secret Engine 
   1. Vault KMIP Secrets Engine (Filesystem/Database Level Encryption)
 
 ???
