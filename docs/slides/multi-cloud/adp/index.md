@@ -68,6 +68,7 @@ name: environment
   1. Vault Basics Review (CLI, K/V, etc.)
   1. Vault Dynamic Database Credentials
   1. Vault Transform and Transit Secrets Engines (Appl Level Encryption)
+  1. (Optional) Vault Transform (With Tokenization) Secret Engine (Appl Level Encrption)
   1. Vault KMIP Secrets Engine (Filesystem/Database Level Encryption)
 
 ???
@@ -469,8 +470,17 @@ In this next Lab we’ll use a web application that leverages both the Transform
 Lab Link: https://play.instruqt.com/hashicorp/tracks/adp-vault
 
 ---
+# Lab Environment Part 2
+In this optional lab, you can leverage a Golang application and the Transform Secret Engine to tokenize data.
+* The Golang application will leverage Vault’s API to tokenize customer SSN’s before writing them to the backend database
+* This lab will also showcase application code modifications as well
+
+Lab Link: https://play.instruqt.com/hashicorp/tracks/vault-advanced-data-protection-with-tokenization
+
+---
 class: title, shelf, no-footer, fullbleed
-background-image: url(images/HashiCorp-Title-bkg.jpeg)
+background-image: url(images/HashiCorp-Title-bkg.jpeg
+
 
 # Chapter 6:
 ## The Vault KMIP Secret Engine
