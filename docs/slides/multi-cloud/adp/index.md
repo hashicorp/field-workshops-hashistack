@@ -308,7 +308,7 @@ You shouldn’t share AD credentials with your teammates, so why do so with mach
 class: middle, center
 # Dynamic Secrets in Action
 Unique, short-lived, just-in-time credentials for each application instance
-![:scale 60%](images/slide37.png)
+![:scale 80%](images/slide37.png)
 
 ---
 # Dynamic Secrets: Protecting Databases
