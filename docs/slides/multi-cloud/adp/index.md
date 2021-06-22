@@ -65,9 +65,10 @@ name: environment
 * This workshop uses Instruqt for hand-on labs.
 * Instruqt labs are run in “tracks” that are divided into “challenges”
 * This workshop uses the following tracks
-  1. Vault Basics Review (CLI, K/V, etc.)
+  1. Vault Basics Review
   1. Vault Dynamic Database Credentials
   1. Vault Transform and Transit Secrets Engines (Appl Level Encryption)
+  1. (Optional) Vault Transform-Tokenization Secret Engine 
   1. Vault KMIP Secrets Engine (Filesystem/Database Level Encryption)
 
 ???
@@ -307,7 +308,7 @@ You shouldn’t share AD credentials with your teammates, so why do so with mach
 class: middle, center
 # Dynamic Secrets in Action
 Unique, short-lived, just-in-time credentials for each application instance
-![:scale 60%](images/slide36.png)
+![:scale 80%](images/slide37.png)
 
 ---
 # Dynamic Secrets: Protecting Databases
@@ -386,7 +387,7 @@ background-image: url(images/HashiCorp-Title-bkg.jpeg)
 ## Encryption as a Service
 
 ---
-# Configuration Steps for MySQL
+# Applied Zero Trust
 * Assume Breach: Continuously defend critical PII data and company data with the assumption that your network has been breached
   * The average time to determine adversarial presence within an enterprise is 191 days (Ponemon Institute)
 * What are our customers trying to achieve?
@@ -433,12 +434,8 @@ Breaches are commonly carried out via attackers who have gained escalated creden
 .center[![:scale 90%](images/slide53.png)]
 
 ---
-class: col-2
-# Tokenization
-.medium[Format Preserving Encryption (FPE) transforms may not satisfy certain GRC due to the use of reversible cryptography]
-
-.medium[The Tokenization Secret Engine allows for  tokenizing sensitive data stored in un-trusted/semi-trusted systems]
-.center[![:scale 50%](images/slide54.png)]
+# Example with Encryption Enabled
+.center[![:scale 90%](images/Transit_enabled.png)]
 
 ---
 class: col-2
@@ -446,9 +443,16 @@ class: col-2
 .smaller[
 * Non-Reversible Identification: Protect data pursuant to requirements for data irreversibility (PCI-DSS, GDPR, etc.) with strong forward secrecy
 * Integrated Metadata: Supports metadata for identifying data type and purpose
-* Extreme Scale and Performance: Support for performantly managing billions of tokens across clouds, on-prem
 ]
-.center[![:scale 50%](images/slide54.png)]
+.center[![:scale 50%](images/tokenization_high_level.png)]
+
+---
+# Tokenization (Diagram)
+.center[![:scale 90%](images/Tokenization_workflow.png)]
+
+---
+# Transform vs. Transit vs. Tokenization
+.center[![:scale 90%](images/vs.png)]
 
 ---
 class: title, shelf, no-footer, fullbleed
@@ -466,8 +470,17 @@ In this next Lab we’ll use a web application that leverages both the Transform
 Lab Link: https://play.instruqt.com/hashicorp/tracks/adp-vault
 
 ---
+# Lab Environment Part 2 (Optional)
+In this optional lab, you can leverage a Golang application and the Transform Secret Engine to tokenize data.
+* The Golang application will leverage Vault’s API to tokenize customer SSN’s before writing them to the backend database
+* This lab will also showcase application code modifications as well
+
+Lab Link: https://play.instruqt.com/hashicorp/tracks/vault-advanced-data-protection-with-tokenization
+
+---
 class: title, shelf, no-footer, fullbleed
-background-image: url(images/HashiCorp-Title-bkg.jpeg)
+background-image: url(images/HashiCorp-Title-bkg.jpeg
+
 
 # Chapter 6:
 ## The Vault KMIP Secret Engine
@@ -497,8 +510,8 @@ background-image: url(images/HashiCorp-Title-bkg.jpeg)
   * Cryptographic offloads for FDE, volume encryption, secret management, etc
 
 ---
-# Example (Mysql):
-.center[![:scale 70%](images/slide60.png)]
+# Example (MongoDB):
+.center[![:scale 70%](images/Mongodb.png)]
 
 ---
 # Examples:
@@ -581,7 +594,7 @@ class: col-2
 
 * Mutual TLS is established]
 
-.center[![:scale 100%](images/slide67.png)]
+.center[![:scale 100%](images/Consul_2.png)]
 
 ---
 class: title, shelf, no-footer, fullbleed
@@ -612,10 +625,6 @@ class: title, shelf, no-footer, fullbleed
 background-image: url(images/HashiCorp-Title-bkg.jpeg)
 
 # Epilogue
-
----
-# Putting it all together: (Example Application)
-.center[![:scale 100%](images/slide75.png)]
 
 ---
 # Workshop Feedback Survey
